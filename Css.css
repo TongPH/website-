@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Kodchasan&family=Mitr&display=swap');
+body{
+background: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+background-size: cover;
+font-family: 'Kanit', sans-serif;
+font-family: 'Kodchasan', sans-serif;
+font-family: 'Mitr', sans-serif;
+font-weight: bold;
+font-size: 20px;
+margin: 0;
+}
+.bg2
+{
+background:#ffff;
+background-color: rgba(200, 200, 200, 0.4);
+backdrop-filter: blur(25px);
+padding:10px 1px;
+border-radius:1em;
+width:100%;
+max-width: 90% ;
+max-height: 90%;
+margin:2rem auto;
+margin:0;
+}
+.pop
+{
+font-size:2em;
+}
+img{
+width: 60%;
+border-radius: 0.5em;
+}
+header{
+    background-color: black;
+    background-size: 100%;
+    max-width: 100%;
+    width: 100%;    
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav{
+    float: left;
+}
+li{
+   display: inline-block;
+   margin-left: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding: relative;
+}
+.li2{
+    float: right;
+    margin-right: 50px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(138, 255, 255);
+    text-decoration: underline;
+}
+h1{
+    padding-bottom: 5px;
+}
+.bo{
+    border: dashed 4px rgba(0, 162, 255, 0.842) ;
+    border-radius: 10px;
+    background-color:  rgb(236, 233, 220) ;
+}
+p{
+    font-size:1rem
+}
